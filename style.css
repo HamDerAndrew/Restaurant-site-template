@@ -11,6 +11,7 @@ h1 {
 p,
 a {
     font-family: 'lato', sans-serif;
+    line-height: 2;
 }
 
 /* ----- CUSTOM STYLING ----- */
@@ -41,6 +42,7 @@ a {
 .nav-menu,
 .nav-socialicons {
     display: flex;
+    flex-wrap: wrap;
     font-size: 21px;
     list-style: none;
 }
@@ -102,24 +104,73 @@ a {
     background-image: url("/Assets/Img/basic_bg.png");
     height: 800px;
     display: flex;
+    flex-wrap: wrap;
     padding: 25px 0px;
     justify-content: center;
 }
 .about-food {
-   line-height: 2;
     text-align: center;
+    margin-right: 20px;
 }
 
 .about-header {
-    font-size: 32px;
+    font-size: 3em;
     color: #cc9900;
+    margin-bottom: .4em;
 }
 
 .foodimg {
     margin-top: 20px;
-    text-align: center;
+    padding-left: 20%;
 }
 
 .about-img-container {
-    
+    padding-top: 40px;
+}
+
+
+
+/* Ingredients */
+#ingredients {
+    background-image: url("/Assets/Img/ingredients_bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    color: white;
+}
+
+.ingredients-box {
+    background-color: #000000a6;
+    text-align: center;
+    width: 650px;
+    margin-top: 6em;
+    margin-bottom: 5em;
+    padding-top: 2em;
+    position: relative;
+    right: 18em;
+}
+
+.ingredients-header {
+    font-size: 3em;
+    margin-bottom: .4em;
+}
+
+.ingredients-box p {
+    margin-top: 2em;
+}
+
+.ingredients-imgbox {
+    margin-top: 3em;
+}
+
+.ingredients-list {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 0;
 }
