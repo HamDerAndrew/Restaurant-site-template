@@ -1,0 +1,125 @@
+/* ----- GENERAL STYLING ----- */
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    font-weight: 300;
+}
+
+p,
+a {
+    font-family: 'lato', sans-serif;
+}
+
+/* ----- CUSTOM STYLING ----- */
+
+.logo {
+    filter: invert(100);
+}
+
+
+
+/* Navigation */
+.nav-header {
+    height: 800px;
+    background-image: url("/Assets/Img/bg-header.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 1em;
+}
+
+.nav-menu,
+.nav-socialicons {
+    display: flex;
+    font-size: 21px;
+    list-style: none;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5em;
+}
+
+.fab {
+    margin-left: .7em;
+    color: #dab33e;
+}
+
+
+
+/* Promo */
+#promo {
+    display: flex;
+    justify-content: center;
+}
+
+.intro-header {
+    font-size: 90px;
+    margin-top: 1.5em;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+.front-link {
+    margin: 1em;
+    text-transform: uppercase;
+    padding: 20px 50px;
+}
+
+.bg-black {
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+.bg-white {
+    background-color: rgba(255, 255, 255, 0.288);
+}
+
+.front-link a {
+    font-size: 1.3em;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* About */
+#about {
+    background-color: white;
+}
+
+.about-container {
+    background-image: url("/Assets/Img/basic_bg.png");
+    height: 800px;
+    display: flex;
+    padding: 25px 0px;
+    justify-content: center;
+}
+.about-food {
+   line-height: 2;
+    text-align: center;
+}
+
+.about-header {
+    font-size: 32px;
+    color: #cc9900;
+}
+
+.foodimg {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about-img-container {
+    
+}
