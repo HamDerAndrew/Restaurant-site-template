@@ -182,7 +182,6 @@ a {
     background-image: url("/Assets/Img/menu_pattern.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
 }
 
 .menucard-container {
@@ -191,13 +190,102 @@ a {
     justify-content: center;
 }
 
-.menu-right,
-.menu-left {
-    margin: 2.5em 4em;
+.menucard-heading {
+    font-size: 2em;
+    color: #cc9900;
+    margin-bottom: .4em;
+    margin-top: 2.5em;
+    text-align: center;
 }
 
-.dish{
+.menucard-divider {
+    display: block;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.menu-right,
+.menu-left {
+    margin: 2.5em 6.5em;
+}
+
+.menu-box {
+    margin-bottom: .5em;
+    padding: 0 1.2em 0 1.2em;
+}
+
+.dish {
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid #dab33e;
+    border-bottom: 1.3px solid #dab33e;
+    font-size: 1.2em;
+    color: #cc9900;
+}
+
+.dish-name,
+.dish-price {
+    font-family: 'Yeseva One', cursive;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.dish-description {
+    margin-top: 0;
+    margin-bottom: .7em;
+}
+
+.special-box .dish {
+    border:none;
+}
+
+.special-box {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0;
+}
+
+.special-prize {
+    margin-bottom: 0;
+    margin-top: -1em;
+    margin-right: -1.49em;
+    padding: 0px .7em;
+    color: white;
+    background-color: #cc9900;
+    font-size: 13px;
+}
+.special {
+    border: 1px solid #cc9900;
+}
+
+
+
+/* Review */
+#reviews {
+    background-image: url("/Assets/Img/reviews_bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    display: flex;
+}
+
+.review-box {
+    background-color: #000000c7;
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    padding: 3em 0;
+}
+
+.review-header {
+    color: white;
+    font-size: 2.7em;
+}
+
+.review-box p {
+    color: white;
+    font-size: 1.7em;
+}
+
+.nyfood {
+    font-size: .8em;
 }
