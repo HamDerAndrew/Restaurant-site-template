@@ -11,13 +11,19 @@ h1,h2,h3 {
 p,
 a {
     font-family: 'lato', sans-serif;
-    line-height: 2;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 16px;
 }
 
 /* ----- CUSTOM STYLING ----- */
 
 .logo {
     filter: invert(100);
+    display: block;
+    margin: auto;
 }
 
 
@@ -47,10 +53,25 @@ a {
     list-style: none;
 }
 
+.navsocial {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.navsocial .nav-link {
+    margin: 0;
+}
+
 .nav-link {
     color: white;
     text-decoration: none;
     margin-left: 1.5em;
+    cursor: pointer;
+}
+
+.nav-link:active, .nav-link:hover {
+    border-top: 2px solid white;
 }
 
 .fab {
@@ -63,6 +84,7 @@ a {
 /* Promo */
 #promo {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -98,15 +120,15 @@ a {
 /* About */
 #about {
     background-color: white;
+    background-image: url("/Assets/Img/basic_bg.png");
+    height: 700px;
+    padding: 45px 0px;
 }
 
 .about-container {
-    background-image: url("/Assets/Img/basic_bg.png");
-    height: 800px;
     display: flex;
-    flex-wrap: wrap;
-    padding: 25px 0px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .about-food {
     text-align: center;
@@ -188,6 +210,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .menucard-heading {
@@ -283,9 +306,271 @@ a {
 
 .review-box p {
     color: white;
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 
 .nyfood {
     font-size: .8em;
+}
+
+
+
+/* Reservation */
+#reservations {
+    background-image: url("/Assets/Img/basic_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.containerbox {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.reserve-header {
+    font-size: 2em;
+    color: #cc9900;
+    margin-top: 0;
+    margin-bottom: .4em;
+}
+
+.desertimg-container {
+    display: flex;
+}
+
+.desertimg {
+    margin: 0 15px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.outer-form {
+    display: inline-flex;
+    color: #cc9900;
+}
+
+
+.reserve-form label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-left,
+.form-right {
+    margin: 15px 15px;
+    display: block;
+    text-align: left;
+}
+
+.form-wrap {
+    display: flex;
+}
+
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+input[type="text"],
+input[type="date"]{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 200px;
+    font-style: italic;
+    height: 2em;
+    font-family: 'lato', sans-serif;
+    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+    -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #cc9900;
+    border-style: solid;
+}
+
+.input {
+    display: block;
+}
+
+.input button {
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #cc9900;
+    color: white;
+    border-style: none;
+    font-size: 1em;
+    font-family: 'lato', sans-serif;
+}
+
+.input button:hover{
+    background-color: #af8300;
+    transition: .4s;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #191919;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+
+/* Responsive Media Queries */
+@media screen and (max-width: 1100px) {
+    .nav-header,
+    #about,
+    #ingredients,
+    #reviews{
+        height: auto;
+    }
+    
+    .menu-right {
+        margin-top: 0;
+    }
+    .intro-header {
+        font-size: 50px;
+    }
+    
+    .nav-menu,
+    .nav-socialicons {
+        font-size: 15px;
+    }
+    
+    .review-box p {
+        font-size: 1em;
+    }
+    
+    .review-box {
+        margin: 3em auto;
+    }
+    
+    .ingredients-box {
+        right: 3em;
+    }
+    
+    .menu-left,
+    .menu-right {
+        margin: 2.5em 1.5em;
+    }
+    
+    .left-container {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .footer-container {
+        display: block;
+    }
+    .footer-column {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 726px) {
+    .nav-container {
+        display: block;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 1em;
+    }
+
+    .nav-menu,
+    .nav-socialicons {
+        display: block;
+        font-size: 16px;
+        list-style: none;
+        padding: 0;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        margin-top: 1.5em;
+        font-size: 1.3em;
+    }
+    
+    .navli {
+        padding: 10px;
+        margin: 10px;
+        background: rgba(0, 0, 0, 0.445);
+    }
+
+    .nav-link {
+        color: white;
+        text-decoration: none;
+        margin-left: 0;
+    }
+    
+    .somelink {
+        background: none !important;
+    }
+    
+    .navsocial {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .fab {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .review-box {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .intro-header {
+        font-size: 30px;
+    }
+    
+    #promo {
+        display: block;
+        padding-bottom: 10px;
+    }
+    .front-link {
+        text-align: center;
+        display: block;
+        padding: 10px 35px;
+        width: 20%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .front-link a {
+        font-size: 10px;
+    }
+    
+    .ingredients-box {
+        width: 100%;
+        right: 0;
+    }
+    
+    .menu-left,
+    .menu-right {
+        margin: 0 20px;
+        width: 100%;
+    }
 }
