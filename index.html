@@ -7,25 +7,26 @@
     <link href="https://fonts.googleapis.com/css?family=Lato|Yeseva+One" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Random Restaurant</title>
+    <title>Lambda Restaurant</title>
 </head>
 <body>
+<div id="wrapper">
     <header class="nav-header">
         <nav>
             <div class="nav-container">
                 <img src="Assets/Img/logo.png" class="logo" alt="Lambda Logo">
                 <ul class="nav-menu">
-                    <li class="navli"><a class="nav-link" href="#promo">Home</a></li>
-                    <li class="navli"><a class="nav-link" href="#about">About</a></li>
-                    <li class="navli"><a class="nav-link" href="#ingredients">Ingredients</a></li>
-                    <li class="navli"><a class="nav-link" href="#menu">Menu</a></li>                        
-                    <li class="navli"><a class="nav-link" href="#reviews">Reviews</a></li>
-                    <li class="navli"><a class="nav-link" href="#reservations">Reservations</a></li>
-                        <ul class="navsocial">
-                            <li><a class="nav-link" href="http://twitter.com"><i class="fab fa-twitter"></i></a></li>
-                            <li><a class="nav-link" href="http://youtube.com"><i class="fab fa-youtube"></i></a></li>
-                            <li><a class="nav-link" href="http://facebook.com"><i class="fab fa-facebook-f"></i></a></li>
-                        </ul>
+                    <li class="navli"><a class="nav-link navhov" href="#promo">Home</a></li>
+                    <li class="navli"><a class="nav-link navhov" href="#about">About</a></li>
+                    <li class="navli"><a class="nav-link navhov" href="#ingredients">Ingredients</a></li>
+                    <li class="navli"><a class="nav-link navhov" href="#menu">Menu</a></li>
+                    <li class="navli"><a class="nav-link navhov" href="#reviews">Reviews</a></li>
+                    <li class="navli"><a class="nav-link navhov" href="#reservations">Reservations</a></li>
+                    <ul class="navsocial">
+                        <li><a class="nav-link smhov" href="http://twitter.com"><i class="fab fa-twitter"></i></a></li>
+                        <li><a class="nav-link smhov" href="http://youtube.com"><i class="fab fa-youtube"></i></a></li>
+                        <li><a class="nav-link smhov" href="http://facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                    </ul>
                 </ul>
             </div>
         </nav>
@@ -39,228 +40,227 @@
             </div>
         </div>
     </header>
-    <div id="wrapper">
-        <section id="about">
-            <div class="about-container">
-                <div class="about-food">
-                    <h2 class="about-header">Just the right food</h2>
-                    <img src="Assets/Img/Divider.png" alt="line divider image">
-                    <p>If you’ve been to one of our restaurants, you’ve seen – and <br> tasted – 
-                        what keeps our customers coming back for more. <br>Perfect materials and 
-                        freshly baked food, delicious Lambda cakes,<br> muffins, and gourmet coffees 
-                        make us hard to resist!<br>
-                        Stop in today and check us out!
-                    </p>
-                    <img src="Assets/Img/cook.png" alt="Cooking food" class="foodimg">
-                </div>
-                <div class="about-img-container">
-                    <img src="/Assets/Img/dish.png" alt="plate with food">
-                </div>
-            </div>
-        </section>
-        <section id="ingredients">
-            <div class="ingredients-box">
-                <h2 class="ingredients-header">Fine ingredients</h2>
-                <img src="Assets/Img/Divider_light.png" alt="line divider image">
-                <p>If you’ve been to one of our restaurants, you’ve seen – and<br> tasted – what keeps our customers coming back for more.<br> Perfect materials and freshly baked food, delicious Lambda<br> cakes, muffins, and gourmet coffees make us hard to resist!<br> Stop in today and check us out!
+    <section id="about">
+        <div class="about-container">
+            <div class="about-food">
+                <h2 class="about-header">Just the right food</h2>
+                <img src="./Assets/Img/Divider.png" alt="line divider image">
+                <p>If you’ve been to one of our restaurants, you’ve seen – and <br> tasted – 
+                    what keeps our customers coming back for more. <br>Perfect materials and 
+                    freshly baked food, delicious Lambda cakes,<br> muffins, and gourmet coffees 
+                    make us hard to resist!<br>
+                    Stop in today and check us out!
                 </p>
-                <div class="ingredients-imgbox">
-                    <ul class="ingredients-list">
-                        <li class="ingredient-img"><img src="/Assets/Img/grain_ingredients.png"></li>
-                        <li class="ingredient-img"><img src="/Assets/Img/paprika_ingredients.png"></li>
-                        <li class="ingredient-img"><img src="/Assets/Img/bread_ingredients.png"></li>
-                    </ul>
-                </div>
+                <img src="./Assets/Img/cook.png" alt="Cooking food" class="foodimg">
             </div>
-        </section>
-        <section id="menu">
-            <div class="menucard-container">
-                <div class="menu-left">
-                    <div class="menu-outer">
-                        <!-- APPETISERS -->
-                        <h1 class="menucard-heading">Appetisers</h1>
-                        <img src="/Assets/Img/Divider.png" class="menucard-divider" alt="line divider image">
-                        <div class="menu-box">
-                            <div class="dish">
-                                <p class="dish-name">Tzatsiki</p>
-                                <p class="dish-price">$3.99</p>
-                            </div>
-                            <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+            <div class="about-img-container">
+                <img src="./Assets/Img/dish.png" alt="plate with food">
+            </div>
+        </div>
+    </section>
+    <section id="ingredients">
+        <div class="ingredients-box">
+            <h2 class="ingredients-header">Fine ingredients</h2>
+            <img src="./Assets/Img/Divider_light.png" alt="line divider image">
+            <p>If you’ve been to one of our restaurants, you’ve seen – and<br> tasted – what keeps our customers coming back for more.<br> Perfect materials and freshly baked food, delicious Lambda<br> cakes, muffins, and gourmet coffees make us hard to resist!<br> Stop in today and check us out!
+            </p>
+            <div class="ingredients-imgbox">
+                <ul class="ingredients-list">
+                    <li class="ingredient-img"><img src="./Assets/Img/grain_ingredients.png"></li>
+                    <li class="ingredient-img"><img src="./Assets/Img/paprika_ingredients.png"></li>
+                    <li class="ingredient-img"><img src="./Assets/Img/bread_ingredients.png"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="menu">
+        <div class="menucard-container">
+            <div class="menu-left">
+                <div class="menu-outer">
+                    <!-- APPETISERS -->
+                    <h1 class="menucard-heading">Appetisers</h1>
+                    <img src="./Assets/Img/Divider.png" class="menucard-divider" alt="line divider image">
+                    <div class="menu-box">
+                        <div class="dish">
+                            <p class="dish-name">Tzatsiki</p>
+                            <p class="dish-price">$3.99</p>
                         </div>
-                        <div class="menu-box">
-                            <div class="dish">
-                                <p class="dish-name">Aubergine Salad</p>
-                                <p class="dish-price">$5.50</p>
-                            </div>
-                            <p class="dish-description">.Pureed eggplant, garlic, green pepper and tomato dip.</p>
-                        </div>
-                        <div class="menu-box">
-                            <div class="dish">
-                                <p class="dish-name">Aubergine Salad</p>
-                                <p class="dish-price">$5.25</p>
-                            </div>
-                            <p class="dish-description">Pureed eggplant, garlic, green pepper and tomato dip.</p>
-                        </div>
-                        <!-- SALADS -->
-                        <h1 class="menucard-heading">Salads</h1>
-                        <img src="/Assets/Img/Divider.png" class="menucard-divider" alt="line divider image">
-                        <div class="menu-box">
-                            <div class="dish">
-                                <p class="dish-name">Olive Special</p>
-                                <p class="dish-price">$5.99</p>
-                            </div>
-                            <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
-                        </div>
-                            <div class="menu-box special-box">
-                                <div class="dish">
-                                   <p class="special-prize">Special</p>
-                                </div>   
-                            </div>
-                        <div class="menu-box special">
-                            <div class="dish">
-                                <p class="dish-name">Greek Salad</p>
-                                <p class="dish-price">$5.50</p>
-                            </div>
-                            <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
-                        </div>
-                        <div class="menu-box">
-                            <div class="dish">
-                                <p class="dish-name">Gusto Salad</p>
-                                <p class="dish-price">$5.25</p>
-                            </div>
-                            <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
-                        </div>
+                        <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
                     </div>
-                </div>
-                <div class="menu-right">
-                    <div class="menu-outer">
-                        <!-- STARTERS -->
-                        <h1 class="menucard-heading">Starters</h1>
-                        <img src="/Assets/Img/Divider.png" class="menucard-divider" alt="line divider image">
-                        <div class="menu-box">
-                            <div class="dish">
-                                <p class="dish-name">Haloumi</p>
-                                <p class="dish-price">$3.99</p>
-                            </div>
-                            <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                    <div class="menu-box">
+                        <div class="dish">
+                            <p class="dish-name">Aubergine Salad</p>
+                            <p class="dish-price">$5.50</p>
                         </div>
-                        <div class="menu-box">
-                            <div class="dish">
-                                <p class="dish-name">Spinach Pie</p>
-                                <p class="dish-price">$5.50</p>
-                            </div>
-                            <p class="dish-description">.Pureed eggplant, garlic, green pepper and tomato dip.</p>
+                        <p class="dish-description">.Pureed eggplant, garlic, green pepper and tomato dip.</p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="dish">
+                            <p class="dish-name">Aubergine Salad</p>
+                            <p class="dish-price">$5.25</p>
                         </div>
-                        <!-- MAIN DISHES -->
-                        <h1 class="menucard-heading">Main Dishes</h1>
-                        <img src="/Assets/Img/Divider.png" class="menucard-divider" alt="line divider image">
-                        <div class="menu-box">
-                            <div class="dish">
-                                <p class="dish-name">Cornish Mackerel</p>
-                                <p class="dish-price">5.99$</p>
-                            </div>
-                            <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                        <p class="dish-description">Pureed eggplant, garlic, green pepper and tomato dip.</p>
+                    </div>
+                    <!-- SALADS -->
+                    <h1 class="menucard-heading">Salads</h1>
+                    <img src="./Assets/Img/Divider.png" class="menucard-divider" alt="line divider image">
+                    <div class="menu-box">
+                        <div class="dish">
+                            <p class="dish-name">Olive Special</p>
+                            <p class="dish-price">$5.99</p>
                         </div>
+                        <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                    </div>
                         <div class="menu-box special-box">
                             <div class="dish">
                                <p class="special-prize">Special</p>
                             </div>   
                         </div>
-                        <div class="menu-box special">
-                            <div class="dish">
-                                <p class="dish-name">Roast Lamb</p>
-                                <p class="dish-price">$5.50</p>
-                            </div>
-                            <p class="dish-description">.Pureed eggplant, garlic, green pepper and tomato dip.</p>
+                    <div class="menu-box special">
+                        <div class="dish">
+                            <p class="dish-name">Greek Salad</p>
+                            <p class="dish-price">$5.50</p>
                         </div>
-                        <div class="menu-box">
-                            <div class="dish">
-                                <p class="dish-name">Fried Chicken</p>
-                                <p class="dish-price">$5.25</p>
-                            </div>
-                            <p class="dish-description">Pureed eggplant, garlic, green pepper and tomato dip.</p>
+                        <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="dish">
+                            <p class="dish-name">Gusto Salad</p>
+                            <p class="dish-price">$5.25</p>
                         </div>
-                        <div class="menu-box">
-                            <div class="dish">
-                                <p class="dish-name">Pastitsio</p>
-                                <p class="dish-price">$5.99</p>
-                            </div>
-                            <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
-                        </div>
+                        <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="reviews">
-            <div class="review-box">
-                <h2 class="review-header">Guest Reviews</h2>
-                <img src="Assets/Img/Divider_light.png" alt="line divider image">
-                <p>If you’ve been to one of our restaurants, you’ve seen – <br>and tasted – what keeps our customers coming back for<br> more. Perfect materials and freshly baked food,<br> delicious Lambda cakes, muffins, and gourmet coffees<br> make us hard to resist! Stop in today and check us out! <br> <br>
-                <i class="nyfood">- food inc, New York</i>
+            <div class="menu-right">
+                <div class="menu-outer">
+                    <!-- STARTERS -->
+                    <h1 class="menucard-heading">Starters</h1>
+                    <img src="./Assets/Img/Divider.png" class="menucard-divider" alt="line divider image">
+                    <div class="menu-box">
+                        <div class="dish">
+                            <p class="dish-name">Haloumi</p>
+                            <p class="dish-price">$3.99</p>
+                        </div>
+                        <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="dish">
+                            <p class="dish-name">Spinach Pie</p>
+                            <p class="dish-price">$5.50</p>
+                        </div>
+                        <p class="dish-description">.Pureed eggplant, garlic, green pepper and tomato dip.</p>
+                    </div>
+                    <!-- MAIN DISHES -->
+                    <h1 class="menucard-heading">Main Dishes</h1>
+                    <img src="./Assets/Img/Divider.png" class="menucard-divider" alt="line divider image">
+                    <div class="menu-box">
+                        <div class="dish">
+                            <p class="dish-name">Cornish Mackerel</p>
+                            <p class="dish-price">5.99$</p>
+                        </div>
+                        <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                    </div>
+                    <div class="menu-box special-box">
+                        <div class="dish">
+                           <p class="special-prize">Special</p>
+                        </div>   
+                    </div>
+                    <div class="menu-box special">
+                        <div class="dish">
+                            <p class="dish-name">Roast Lamb</p>
+                            <p class="dish-price">$5.50</p>
+                        </div>
+                        <p class="dish-description">.Pureed eggplant, garlic, green pepper and tomato dip.</p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="dish">
+                            <p class="dish-name">Fried Chicken</p>
+                            <p class="dish-price">$5.25</p>
+                        </div>
+                        <p class="dish-description">Pureed eggplant, garlic, green pepper and tomato dip.</p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="dish">
+                            <p class="dish-name">Pastitsio</p>
+                            <p class="dish-price">$5.99</p>
+                        </div>
+                        <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reviews">
+        <div class="review-box">
+            <h2 class="review-header">Guest Reviews</h2>
+            <img src="./Assets/Img/Divider_light.png" alt="line divider image">
+            <p>If you’ve been to one of our restaurants, you’ve seen – <br>and tasted – what keeps our customers coming back for<br> more. Perfect materials and freshly baked food,<br> delicious Lambda cakes, muffins, and gourmet coffees<br> make us hard to resist! Stop in today and check us out! <br> <br>
+            <i class="nyfood">- food inc, New York</i>
+            </p>
+        </div>
+    </section>
+    <section id="reservations">
+        <div class="containerbox">
+            <div class="left-container">
+                <div class="desertimg-container">
+                    <img src="./Assets/Img/desert2.jpeg" alt="desertimage two" class="desertimg">
+                    <img src="./Assets/Img/desert1.jpeg" alt="desertimage one" class="desertimg">
+                </div>
+            </div>
+            <div class="right-container">
+                <div class="reservation-text">
+                <h2 class="reserve-header">Just the right food</h2>
+                <img src="./Assets/Img/Divider.png" alt="line divider image">
+                <p>If you’ve been to one of our restaurants, you’ve seen – and <br> tasted – 
+                    what keeps our customers coming back for more. <br>Perfect materials and 
+                    freshly baked food.
+                    <br>
+                    <br>
+                    Delicious Lambda cakes, muffins, and gourmet coffees make<br> us hard to resist!<br>
+                    Stop in today and check us out! Perfect <br> materials and freshly baked food.
                 </p>
-            </div>
-        </section>
-        <section id="reservations">
-            <div class="containerbox">
-                <div class="left-container">
-                    <div class="desertimg-container">
-                        <img src="Assets/Img/desert2.jpeg" alt="desertimage two" class="desertimg">
-                        <img src="Assets/Img/desert1.jpeg" alt="desertimage one" class="desertimg">
-                    </div>
                 </div>
-                <div class="right-container">
-                    <div class="reservation-text">
-                    <h2 class="reserve-header">Just the right food</h2>
-                    <img src="Assets/Img/Divider.png" alt="line divider image">
-                    <p>If you’ve been to one of our restaurants, you’ve seen – and <br> tasted – 
-                        what keeps our customers coming back for more. <br>Perfect materials and 
-                        freshly baked food.
-                        <br>
-                        <br>
-                        Delicious Lambda cakes, muffins, and gourmet coffees make<br> us hard to resist!<br>
-                        Stop in today and check us out! Perfect <br> materials and freshly baked food.
-                    </p>
-                    </div>
-                    <div class="form-container">
-                        <form class="reserve-form">
-                            <div class="outer-form">
-                                <div class="form-left">
-                                    <label for="name">Name</label>
-                                    <input type="text" name="name" placeholder="your name *" required>
-                                    <label for="date">Date</label>
-                                    <input type="date" name="Date" placeholder="date *" required>
-                                </div>
-                                <div class="form-right">
-                                    <label for="email">Email</label>
-                                    <input type="email" name="email" placeholder="your email *" required>
-                                    <label for="party number" >Party number</label>
-                                    <input type="number" name="party number" placeholder="party number">
-                                </div>
+                <div class="form-container">
+                    <form class="reserve-form">
+                        <div class="outer-form">
+                            <div class="form-left">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" placeholder="your name *" required>
+                                <label for="date">Date</label>
+                                <input type="date" name="Date" placeholder="date *" required>
                             </div>
-                            <div class="input"><button>Book now!</button></div>
-                        </form>
-                    </div>
+                            <div class="form-right">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" placeholder="your email *" required>
+                                <label for="party number" >Party number</label>
+                                <input type="number" name="party number" placeholder="party number">
+                            </div>
+                        </div>
+                        <div class="input"><button>Book now!</button></div>
+                    </form>
                 </div>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
+</div>
     <footer>
         <div class="footer-container">
             <div class="footer-column">
                 <h2 class="footer-header">About us</h2>
-                <img src="Assets/Img/Divider_light.png" alt="line divider image">
+                <img src="./Assets/Img/Divider_light.png" alt="line divider image">
                 <p>Lambda's new and expanded Chelsea location<br> represents a truly authentic Greek patisserie,<br> featuring breakfasts of fresh croissants and<br> steaming bowls of café.<br>
 Lamda the best restaurant in town</p>
             </div>
             <div class="footer-column">
                 <h2 class="footer-header">Opening Hours</h2>
-                <img src="Assets/Img/Divider_light.png" alt="line divider image">
+                <img src="./Assets/Img/Divider_light.png" alt="line divider image">
                 <p><strong>Mon-Thu:</strong> 7:00am-8:00pm</p>
                 <p><strong>Fri-Sun:</strong> 7:00am-10:00pm</p>
             </div>
             <div class="footer-column">
                 <h2 class="footer-header">Our Location</h2>
-                <img src="Assets/Img/Divider_light.png" alt="line divider image">
+                <img src="./Assets/Img/Divider_light.png" alt="line divider image">
                 <p><strong>19th Paradise Street Sitia</strong></p>
                 <p><strong>128 Meserole Avenue</strong></p>
             </div>
