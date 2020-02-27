@@ -437,6 +437,7 @@ input:focus {
 footer {
     background-color: #191919;
     color: white;
+    overflow: hidden;
 }
 
 .footer-container {
